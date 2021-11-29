@@ -1,0 +1,103 @@
+:root  {
+	/* primary colors */
+	--Moderate-violet: hsl(263, 55%, 52%);
+	--Very-dark-grayish-blue: hsl(217, 19%, 35%);
+	--Very-dark-blackish-blue: hsl(219, 29%, 14%);
+	--White: hsl(0, 0%, 100%);
+
+	/* neutral colors */
+	--Light-gray: hsl(0, 0%, 81%);
+	--Light-grayish-blue: hsl(210, 46%, 95%);
+
+	/* TODO review notes on color */
+}
+
+html {
+	font-size: 13px;
+}
+
+/* 
+COLOR VARIABLES 
+*/
+/* 
+FONT SIZES 
+*/
+
+/* 
+TEXT 
+*/
+
+/* 
+BACKGROUNDS 
+*/
+
+/* profile picture border 
+*/
+
+/* 
+UI VARIABLES 
+*/
+/* profile pictures border-radius */
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+blockquote {
+	padding: 0;
+	margin: 0;
+}
+blockquote > p::before,
+blockquote > p::after {
+	content: '"';
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 1440px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr 6.5fr 6fr 6.5fr 6.5fr 1fr;
+		column-gap: 3rem;
+		grid-template-rows: 5fr 20fr 20fr 5fr;
+		row-gap: 2rem;
+	}
+	article {
+		border-radius: 7px;
+		padding: 1rem;
+	}
+	body > article:first-child {
+		grid-column-start: 2;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	body > article:nth-child(2) {
+		grid-column-start: 4;
+		grid-column-end: 5;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	body > article:nth-child(3) {
+		grid-column-start: 5;
+		grid-column-end: 6;
+		grid-row-start: 2;
+		grid-row-end: 4;
+	}
+	body > article:nth-child(4) {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+	body > article:nth-child(5) {
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+}

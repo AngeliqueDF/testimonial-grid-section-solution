@@ -44,6 +44,7 @@ article {
 	width: 71%;
 	margin: auto auto 3rem auto;
 	color: var(--white);
+	box-shadow: 0px 12px 25px -1px rgba(0, 0, 0, 0.3);
 }
 article header div {
 	display: flex;
@@ -127,7 +128,7 @@ body > article:nth-child(5) {
 		display: grid;
 		grid-template-columns: 3fr 6.5fr 6fr 6.5fr 6.5fr 3fr;
 		column-gap: 3rem;
-		grid-template-rows: 5rem 0.33fr 0.33fr 5rem;
+		grid-template-rows: 6rem 0.33fr 0.33fr 5rem;
 		row-gap: 2rem;
 	}
 	article {

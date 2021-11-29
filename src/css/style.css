@@ -136,14 +136,11 @@ body > article:nth-child(5) {
 		padding: 0.9rem 2.5rem;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 	.author {
 		margin-bottom: 0;
 	}
-	/* article h2 {
-		margin-bottom: 2rem;
-	} */
 	article header h2 {
 		font-size: 1.5rem;
 	}
@@ -156,8 +153,7 @@ body > article:nth-child(5) {
 	}
 	body > article:first-child::after {
 		right: 168px;
-		transform: scaleY(95%);
-		top: -2px;
+		top: 0;
 	}
 	/* jonathan wæiters */
 	body > article:nth-child(2) {

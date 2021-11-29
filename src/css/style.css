@@ -1,3 +1,13 @@
+@font-face {
+	font-family: "Barlow Semi Condensed";
+	src: url("./../fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Barlow Semi Condensed";
+	src: url("./../fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-SemiBold.ttf");
+	font-weight: 600;
+}
 :root  {
 	/* primary colors */
 	--Moderate-violet: hsl(263, 55%, 52%);
@@ -14,6 +24,8 @@
 
 html {
 	font-size: 13px;
+	font-family: "Barlow Semi Condensed";
+	font-weight: 500;
 }
 
 /* 

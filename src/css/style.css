@@ -26,7 +26,9 @@ html {
 }
 
 body {
-	background-color: var(--light-grayish-blue);
+	font-family: "Barlow Semi Condensed", sans-serif;
+	font-weight: 500;
+	background-color: var(--light-gray-blue);
 }
 body > article:first-child header img {
 	border: 3px solid rgba(255, 255, 255, 0.5);

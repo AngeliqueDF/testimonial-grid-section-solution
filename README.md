@@ -1,82 +1,57 @@
-# Frontend Mentor - Testimonials grid section solution
+# Testimonials grid section
 
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Continued development](#continued-development)
-    -   [Useful resources](#useful-resources)
--   [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+![Screenshot of the testimonials grid section](./src/images/screenshot.png)
 
 ## Overview
 
-### The challenge
+_A testimonials section to prove the quality of your work!_
 
-Users should be able to:
+## Links
 
--   View the optimal layout for the site depending on their device's screen size
+<p>
+<a href="https://github.com/AngeliqueDF/testimonials-grid-section-solution">GitHub repository</a> • <a href="https://angeliquedf.github.io/testimonials-grid-section-solution/">Live demo </a>
+</p>
 
-### Screenshot
+<br />
 
-![](./src/images/screenshot.png)
+## How to run the project
 
-### Links
+1. `git clone HTTPS_REPO_URL MY_FOLDER_NAME`
+2. `cd MY_FOLDER_NAME`
+3. `npm install`
+4. `npm start`
+5. visit `http://localhost:8888`
 
--   Solution URL: [https://github.com/AngeliqueDF/testimonial-grid-section-solution](https://github.com/AngeliqueDF/testimonial-grid-section-solution)
--   Live Site URL: [https://angeliquedf.github.io/testimonial-grid-section-solution/](https://angeliquedf.github.io/testimonial-grid-section-solution/)
+<br />
 
-## My process
+## Features
 
-### Built with
+- Responsive
+- Accessible
 
--   Semantic HTML5 markup
--   CSS custom properties
--   Flexbox
--   CSS Grid
+## Technologies
 
-### What I learned
+- HTML
+- CSS Grids
 
-This project helped me practice using CSS Grid combined with CSS Flexible Box (Flexbox) for simple layouts, outside of a learning platform:
+<br />
 
-```css
-/* container */
-body {
-	display: grid;
-	grid-template-columns: 3fr 6.5fr 6fr 6.5fr 6.5fr 3fr;
-	column-gap: 3rem;
-	grid-template-rows: 5rem 0.33fr 0.33fr 5rem;
-	row-gap: 2rem;
-}
-```
+## Description
 
-```css
-/* one child element */
-body > article:first-child {
-	grid-column-start: 2;
-	grid-column-end: 4;
-	grid-row-start: 2;
-	grid-row-end: 3;
-}
-```
-
-### Continued development
-
-Next, I would like to use CSS Grid on more complex layouts.
+> ### The challenge
+>
+> Users should be able to:
+>
+> - View the optimal layout for the site depending on their device's screen size
+>
+> -- Frontend Mentor
 
 ### Useful resources
 
--   [A Complete Guide to Grid on CSS-Tricks.com.](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [A Complete Guide to Grid on CSS-Tricks.com.](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ## Author
 
--   Website - [Angélique D. Faye](https://adf.dev)
--   Frontend Mentor - [@AngeliqueDF](https://www.frontendmentor.io/profile/AngeliqueDF)
+- [@AngeliqueDF on GitHub.](https://github.com/AngeliqueDF)
+- [Visit my website.](https://adf.dev)
+- [View my Frontend Mentor profile.](https://www.frontendmentor.io/profile/AngeliqueDF)

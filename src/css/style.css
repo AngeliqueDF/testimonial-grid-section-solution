@@ -54,7 +54,7 @@ main {
 	color: var(--very-dark-gray-blue);
 	box-shadow: 23px 6px 31px 0px rgb(0 0 0 / 10%);
 }
-article header div {
+.testimonial-meta {
 	display: flex;
 	align-items: center;
 }

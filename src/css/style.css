@@ -63,8 +63,14 @@ main {
 	width: 3rem;
 	height: 3rem;
 }
-article header h2 {
-	margin-top: 0;
+
+.testimonial-meta,
+.testimonial-highlight {
+	margin-block-end: 1rem;
+}
+
+.testimonial-highlight {
+	margin-block-start: 0;
 }
 address {
 	font-style: normal;

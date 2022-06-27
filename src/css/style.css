@@ -42,7 +42,10 @@ main {
 	display: flex;
 	flex-direction: column;
 }
-article {
+/* END TESTIMONIALS CONTAINER */
+
+/* TESTIMONIALS COMMON STYLES */
+.testimonial {
 	border-radius: 7px;
 	padding: 0.9rem 1.8rem;
 	width: 71%;

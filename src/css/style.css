@@ -93,11 +93,11 @@ main {
 	opacity: var(--lightly-dimmed-font-color);
 	line-height: 1.4rem;
 }
-	content: '" ';
 .testimonial-content::before {
+	content: open-quote;
 }
-	content: ' "';
 .testimonial-content::after {
+	content: close-quote;
 }
 body > article:first-child {
 	background-color: var(--moderate-violet);

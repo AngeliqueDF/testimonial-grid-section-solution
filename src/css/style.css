@@ -137,7 +137,12 @@ main {
 }
 /* END WHITE BACKGROUND */
 
+/* PURPLE BACKGROUND */
+.background-purple {
+	background-color: var(--moderate-violet);
 }
+/* END PURPLE BACKGROUND */
+
 }
 .attribution {
 	font-size: 11px;

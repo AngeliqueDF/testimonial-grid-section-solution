@@ -85,7 +85,7 @@ main {
 	font-size: 0.9rem;
 	opacity: var(--very-dimmed-font-color);
 }
-blockquote {
+.testimonial blockquote {
 	padding: 0;
 	margin: 0;
 }

@@ -291,4 +291,12 @@ main {
 	}
 	/* END TESTIMONIALS COMMON STYLES */
 
+	/* UTILITY CLASSES */
+	.decorative-quotes-background {
+		background-image: url("./../images/bg-pattern-quotation.svg");
+		background-repeat: no-repeat;
+		background-position: 80.9% 0%;
+		background-size: 17.8% 36.9%;
+	}
+	/* END UTILITY CLASSES */
 }

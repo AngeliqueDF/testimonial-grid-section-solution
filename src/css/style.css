@@ -30,11 +30,13 @@ body {
 	font-weight: 500;
 	background-color: var(--light-gray-blue);
 }
-body > article:first-child header img {
-	border: 3px solid rgba(255, 255, 255, 0.5);
+
+/* LAYOUT */
+main {
+	padding: 4rem 0;
 }
-body > article:nth-child(4) header img {
-	border: 3px solid rgb(117, 65, 200);
+/* END LAYOUT */
+
 }
 article {
 	border-radius: 7px;

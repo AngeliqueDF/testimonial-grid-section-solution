@@ -26,8 +26,6 @@ html {
 }
 
 body {
-	display: flex;
-	flex-direction: column;
 	background-color: var(--light-grayish-blue);
 }
 body > article:first-child header img,

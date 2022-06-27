@@ -119,8 +119,18 @@ main {
 }
 /* END BORDER FOR PROFILE PICTURE */
 
+/* GREY BORDER PROFILE PICTURES */
+.grey-border {
+	border-color: rgba(255, 255, 255, 0.5);
 }
+/* END GREY BORDER PROFILE PICTURES */
+
+/* PURPLE BORDER PROFILE PICTURES */
+.purple-border {
+	border-color: hsl(263, 55%, 70%);
 }
+/* END PURPLE BORDER PROFILE PICTURES */
+
 	background-color: var(--white);
 	color: var(--very-dark-grayish-blue);
 }

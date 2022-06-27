@@ -112,7 +112,13 @@ main {
 }
 /* END DECORATIVE BACKGROUND */
 
+/* BORDER FOR PROFILE PICTURE */
+.image-large-border {
+	border-width: 3px;
+	border-style: solid;
 }
+/* END BORDER FOR PROFILE PICTURE */
+
 }
 }
 	background-color: var(--white);

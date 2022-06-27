@@ -99,36 +99,13 @@ main {
 .testimonial-content::after {
 	content: close-quote;
 }
-body > article:first-child {
-	background-color: var(--moderate-violet);
-	position: relative;
 }
-body > article:first-child header h2 {
-	position: relative;
-	z-index: 2;
 }
-body > article:first-child::after {
-	content: url("./../images/bg-pattern-quotation.svg");
-	width: 1rem;
-	position: absolute;
-	top: 0;
-	right: 104px;
-	/* right: 168px; */
-	z-index: 1;
 }
-body > article:nth-child(2) {
-	background-color: var(--very-dark-grayish-blue);
-}
-body > article:nth-child(3) {
 	background-color: var(--white);
 	color: var(--very-dark-grayish-blue);
 }
-body > article:nth-child(4) {
-	background-color: var(--very-dark-blackish-blue);
 }
-body > article:nth-child(5) {
-	background-color: var(--white);
-	color: var(--very-dark-grayish-blue);
 }
 .attribution {
 	font-size: 11px;

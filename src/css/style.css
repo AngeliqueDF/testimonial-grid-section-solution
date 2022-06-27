@@ -155,6 +155,14 @@ main {
 }
 /* END DARK BLACK BLUE BACKGROUND */
 
+/* WHITE TEXT */
+.white-text {
+	color: var(--white);
+}
+/* END WHITE TEXT */
+
+/* END UTILITY CLASSES */
+
 .attribution {
 	font-size: 11px;
 	text-align: center;

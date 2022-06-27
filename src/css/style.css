@@ -131,9 +131,12 @@ main {
 }
 /* END PURPLE BORDER PROFILE PICTURES */
 
+/* WHITE BACKGROUND */
+.white-background {
 	background-color: var(--white);
-	color: var(--very-dark-grayish-blue);
 }
+/* END WHITE BACKGROUND */
+
 }
 }
 .attribution {

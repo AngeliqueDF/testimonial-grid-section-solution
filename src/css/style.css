@@ -28,11 +28,6 @@ html {
 body {
 	background-color: var(--light-grayish-blue);
 }
-body > article:first-child header img,
-body > article:nth-child(4) header img {
-	border-width: 3px;
-	border-style: solid;
-}
 body > article:first-child header img {
 	border: 3px solid rgba(255, 255, 255, 0.5);
 }
